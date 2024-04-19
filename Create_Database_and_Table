@@ -1,0 +1,7 @@
+CREATE database college; /* create a database */
+USE college; /* use a database */
+CREATE table student (    /* Create a table with 3 columns */
+id INT PRIMARY KEY,        /* PRIMARY KEY means value for al should be different*/
+Name VARCHAR(50),         /* VARCHAR string witch can not exceed more than 50*/
+age INT NOT NULL
+);
