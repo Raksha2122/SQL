@@ -1,0 +1,6 @@
+/* The Database colleage is created before then the Table student is created with columns id , Name , age and then we are inserting the data into it */
+
+
+INSERT INTO student VALUES(1,"RAKSHA",21);   /* insert the data into table */
+INSERT INTO student VALUES(2,"VAIBHAV",21);
+select *FROM student;
