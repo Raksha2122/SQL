@@ -1,0 +1,12 @@
+/* Practice Question - Create a database for campany XYZ and a table with employee info(id, name,salary) and add the info to it then Select and view all */
+CREATE DATABASE XYZ;
+USE XYZ;
+CREATE TABLE IF NOT exists employee (
+id INT PRIMARY KEY,        /* PRIMARY KEY means value for all should be different*/
+name VARCHAR(50),         /* VARCHAR string witch can not exceed more than 50*/
+salary INT 
+);
+INSERT INTO employee VALUES(1,"Adam",25000);   /* insert the data into table */
+INSERT INTO employee VALUES(2,"Bob",30000);  
+INSERT INTO employee VALUES(3,"Casey",40000);  
+select *FROM employee;
